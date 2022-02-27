@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;IT-2021/src/main/webapp/storage/NewFile.xml&apos; to &apos;users.xml&apos;" description="Rename resource &apos;NewFile.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/storage/NewFile.xml" name="users.xml" stamp="1622033324213" updateReferences="true"/>
+</session>

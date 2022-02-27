@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<user>
+<id></id>
+<personalName></personalName>
+<userName></userName>
+....
+<address>
+<city></city>
+<street></street>
+</address>
+
+<proffesionalSkills>
+<skill>
+<name></name>
+<level></level>
+</skill>
+</proffesionalSkills>
+
+<personalSkills>
+<skill>
+<name></name>
+<level></level>
+</skill>
+</personalSkills>
+
+</user>
+
+
+private int id;
+	private String personalName;
+	private String userName;
+	private String password;
+	private String jobTitle;
+	private String description;
+	private String email;
+	private String phone;
+	private Address address;
+	private ArrayList<Skill> proffesionalSkills;
+	private ArrayList<Skill> personalSkills;

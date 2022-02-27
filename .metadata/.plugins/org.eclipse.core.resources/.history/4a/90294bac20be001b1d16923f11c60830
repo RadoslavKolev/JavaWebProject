@@ -1,0 +1,81 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <filter>
+  	<filter-name>AnonimousAccess</filter-name>
+  	<display-name>AnonimousAccess</display-name>
+  	<description></description>
+  	<filter-class>filters.AnonimousAccess</filter-class>
+  </filter>
+  <filter>
+  	<filter-name>LoggedAccess</filter-name>
+  	<display-name>LoggedAccess</display-name>
+  	<description></description>
+  	<filter-class>filters.LoggedAccess</filter-class>
+  </filter>
+  <servlet>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<display-name>LoginServlet</display-name>
+  	<description></description>
+  	<servlet-class>users.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RegServlet</servlet-name>
+  	<display-name>RegServlet</display-name>
+  	<description></description>
+  	<servlet-class>users.RegServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UserServlet</servlet-name>
+  	<display-name>UserServlet</display-name>
+  	<description></description>
+  	<servlet-class>users.UserServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LogoutServlet</servlet-name>
+  	<display-name>LogoutServlet</display-name>
+  	<description></description>
+  	<servlet-class>users.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>CookieServlet</servlet-name>
+  	<display-name>CookieServlet</display-name>
+  	<description></description>
+  	<servlet-class>users.CookieServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UsersServlet</servlet-name>
+  	<display-name>UsersServlet</display-name>
+  	<description></description>
+  	<servlet-class>users.UsersServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ErrorHandler</servlet-name>
+  	<display-name>ErrorHandler</display-name>
+  	<description></description>
+  	<servlet-class>servlets.ErrorHandler</servlet-class>
+  </servlet>
+  <error-page>
+  <error-code>404</error-code>
+  <location>/errorHandler</location>
+  </error-page>
+    <error-page>
+  <error-code>403</error-code>
+  <location>/errorHandler</location>
+  </error-page>
+    <error-page>
+  <error-code>500</error-code>
+  <location>/errorHandler</location>
+  </error-page>
+    <error-page>
+  <exception-type>javax.servlet.ServletException</exception-type>
+  <location>/errorHandler</location>
+  </error-page>
+      <error-page>
+  <exception-type>java.io.IOException</exception-type>
+  <location>/errorHandler</location>
+  </error-page>
+</web-app>

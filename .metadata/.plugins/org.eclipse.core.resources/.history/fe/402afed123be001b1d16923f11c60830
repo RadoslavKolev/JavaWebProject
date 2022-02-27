@@ -1,0 +1,7 @@
+package xml;
+
+public class XMLWorker {
+	
+	public void writeToXmlFile(String xmlFile, UserCollection collection)
+
+}

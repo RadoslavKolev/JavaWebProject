@@ -1,0 +1,15 @@
+package xml;
+
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.JAXBException;
+
+import users.UserCollection;
+
+public class XMLWorker {
+	
+	public void writeToXmlFile(String xmlFile, UserCollection collection) throws JAXBException
+	{
+		JAXBContext context = JAXBContext.newInstance(UserCollection.class);
+	}
+
+}

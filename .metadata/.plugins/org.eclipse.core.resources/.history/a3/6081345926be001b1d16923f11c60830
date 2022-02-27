@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<users>
+    <user>
+        <id>1</id>
+        <personalName>Доника Стоянова</personalName>
+        <userName>12</userName>
+        <password>12345678</password>
+        <jobTitle>не е зададена</jobTitle>
+        <description>не е зададено</description>
+        <email>не е зададен</email>
+        <phone>не е зададен</phone>
+        <address>
+            <city>не е зададен</city>
+            <street>не е зададена</street>
+        </address>
+        <proffesionalSkills>
+            <skill>
+                <skillName>Умение</skillName>
+                <level>0</level>
+            </skill>
+            <skill>
+                <skillName>Умение</skillName>
+                <level>0</level>
+            </skill>
+            <skill>
+                <skillName>Умение</skillName>
+                <level>0</level>
+            </skill>
+            <skill>
+                <skillName>Умение</skillName>
+                <level>0</level>
+            </skill>
+        </proffesionalSkills>
+        <personalSkills>
+            <skill>
+                <skillName>Умение</skillName>
+                <level>0</level>
+            </skill>
+            <skill>
+                <skillName>Умение</skillName>
+                <level>0</level>
+            </skill>
+            <skill>
+                <skillName>Умение</skillName>
+                <level>0</level>
+            </skill>
+        </personalSkills>
+    </user>
+</users>

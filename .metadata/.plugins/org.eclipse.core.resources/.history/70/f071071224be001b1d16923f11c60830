@@ -1,0 +1,12 @@
+package xml;
+
+import users.UserCollection;
+
+public class XMLWorker {
+	
+	public void writeToXmlFile(String xmlFile, UserCollection collection)
+	{
+		
+	}
+
+}
